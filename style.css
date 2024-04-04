@@ -1,0 +1,238 @@
+.select-your-flight {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.select-your-flight .overlap-wrapper {
+  background-color: rgba(255, 255, 255, 1);
+  overflow: hidden;
+  background: linear-gradient(
+    180deg,
+    rgb(252, 252, 254) 0%,
+    rgb(139, 147, 219) 100%
+  );
+  width: 393px;
+  height: 852px;
+}
+
+.select-your-flight .overlap {
+  position: relative;
+  height: 853px;
+}
+
+.select-your-flight .background {
+  position: absolute;
+  width: 393px;
+  height: 852px;
+  top: 0;
+  left: 0;
+}
+
+.select-your-flight .overlap-group {
+  position: relative;
+  height: 852px;
+}
+
+.select-your-flight .nasa {
+  position: absolute;
+  width: 393px;
+  height: 688px;
+  top: 7px;
+  left: 0;
+}
+
+.select-your-flight .richard-horvath {
+  position: absolute;
+  width: 393px;
+  height: 852px;
+  top: 0;
+  left: 0;
+  mix-blend-mode: color-dodge;
+  object-fit: cover;
+}
+
+.select-your-flight .bottom-sheet {
+  position: absolute;
+  width: 393px;
+  height: 582px;
+  top: 271px;
+  left: 0;
+}
+
+.select-your-flight .base {
+  position: relative;
+  width: 395px;
+  height: 584px;
+  top: -1px;
+  left: -1px;
+  background-color: #ffffff1a;
+  border: 1px solid;
+  border-color: #ffffff66;
+  backdrop-filter: blur(30px) brightness(100%);
+  -webkit-backdrop-filter: blur(30px) brightness(100%);
+}
+
+.select-your-flight .top-navigation {
+  display: inline-flex;
+  align-items: center;
+  gap: 53px;
+  position: absolute;
+  top: 69px;
+  left: 20px;
+}
+
+.select-your-flight .frame {
+  display: flex;
+  flex-direction: column;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.select-your-flight .text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: "SF Pro Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.select-your-flight .group {
+  position: absolute;
+  width: 290px;
+  height: 97px;
+  top: 528px;
+  left: 45px;
+}
+
+.select-your-flight .div {
+  position: absolute;
+  top: -1px;
+  left: 80px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.select-your-flight .search-and-compare-p {
+  position: absolute;
+  width: 290px;
+  top: 41px;
+  left: 0;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #3c3c4399;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+}
+
+.select-your-flight .flight-booking-pana {
+  position: absolute;
+  width: 348px;
+  height: 327px;
+  top: 157px;
+  left: 17px;
+}
+
+.select-your-flight .group-2 {
+  position: absolute;
+  width: 350px;
+  height: 34px;
+  top: 790px;
+  left: 13px;
+}
+
+.select-your-flight .overlap-2 {
+  position: absolute;
+  width: 76px;
+  height: 14px;
+  top: 10px;
+  left: 140px;
+}
+
+.select-your-flight .rectangle {
+  position: absolute;
+  width: 27px;
+  height: 14px;
+  top: 0;
+  left: -15px;
+  background-color: #3600a2;
+  border-radius: 6px;
+}
+
+.select-your-flight .welcome-nav-dot {
+  position: absolute;
+  /* width: 76px;
+  height: 12px; */
+  top: 1px;
+  left: 0;
+}
+
+.select-your-flight .group-3 {
+  position: relative;
+  height: 12px;
+}
+
+/* .select-your-flight .oval {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: -1px;
+  left: -1px;
+  background-color: #ceced1;
+  border-radius: 7px;
+} */
+
+.select-your-flight .oval-2 {
+  left: 32px;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 0;
+  background-color: #7878805c;
+  border-radius: 6px;
+}
+
+.select-your-flight .oval-3 {
+  left: 64px;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 0;
+  background-color: #7878805c;
+  border-radius: 6px;
+}
+
+.select-your-flight .img {
+  position: absolute;
+  width: 60px;
+  height: 34px;
+  top: 0;
+  left: 290px;
+}
+
+.select-your-flight .group-4 {
+  position: absolute;
+  width: 60px;
+  height: 34px;
+  top: 0;
+  left: 0;
+}
